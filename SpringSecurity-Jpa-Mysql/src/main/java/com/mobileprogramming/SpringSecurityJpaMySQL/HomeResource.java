@@ -1,7 +1,9 @@
 package com.mobileprogramming.SpringSecurityJpaMySQL;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class HomeResource {
 		
 	
@@ -14,7 +16,7 @@ public class HomeResource {
 		@GetMapping("/user")
 	   public String user()
 		{
-			return ("h1>WELCOME USER</h1>");
+			return ("<h1>WELCOME USER</h1>");
 		}
 		
 	   @GetMapping("/admin")

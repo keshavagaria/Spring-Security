@@ -13,7 +13,7 @@ public class User {
 	private int id;
 	private String userName;
 	private String password;
-	private boolean active;
+	private boolean isActive;
 	private String roles;
 	public int getId() {
 		return id;
@@ -33,11 +33,12 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 	public boolean isActive() {
-		return active;
+		return isActive;
 	}
-	public void setActive(boolean active) {
-		this.active = active;
+	public void setActive(boolean isActive) {
+		this.isActive = isActive;
 	}
 	public String getRoles() {
 		return roles;
