@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = "com.csi.spring")
-public class SpringSecurityAppApplication {
+public class SecurityAppMySQL {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSecurityAppApplication.class, args);
+		SpringApplication.run(SecurityAppMySQL.class, args);
 	}
 
 }

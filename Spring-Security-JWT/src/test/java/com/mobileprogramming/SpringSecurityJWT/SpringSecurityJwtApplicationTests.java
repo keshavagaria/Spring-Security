@@ -1,10 +1,10 @@
-package com.csi.boot.SpringSecurityApp;
+package com.mobileprogramming.SpringSecurityJWT;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringSecurityAppApplicationTests {
+class SpringSecurityJwtApplicationTests {
 
 	@Test
 	void contextLoads() {

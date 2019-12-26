@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages= "com.csi.controller")
-public class SecurityAppApplication {
+public class SecurityAppConfiguration {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecurityAppApplication.class, args);
+		SpringApplication.run(SecurityAppConfiguration.class, args);
 	}
 
 }
